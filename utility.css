@@ -1,0 +1,60 @@
+.border {
+    border: 2px solid rgb(246, 49, 49);
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.justify-centre {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-grey {
+    background-color: #1a1a1a;
+}
+
+.rounded {
+    border-radius: 5px;
+
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.p-1 {
+    padding: 15px;
+}
+
+.card {
+    background-color: #242323;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.25);
+}

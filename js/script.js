@@ -4,11 +4,11 @@ let currentsong = new Audio();
 let currentPlaylist = [];
 let currentIndex = 0;
 
-// 🎵 PLAYLIST DATA (EDIT HERE ONLY)
+// 🎵 PLAYLIST DATA 
 const playlists = [
   {
     name: "Punjabi Songs",
-    cover: "https://res.cloudinary.com/dqenjnk8x/image/upload/v1774240478/cover_xapn54.jpg", // you can change later
+    cover: "https://res.cloudinary.com/dqenjnk8x/image/upload/v1774240506/cover_wswlxv.webp", 
     songs: [
       {
         name: "Aari Aari Dhurandhar",
@@ -17,6 +17,24 @@ const playlists = [
       {
         name: "Good Luck Charm",
         url:" https://res.cloudinary.com/dqenjnk8x/video/upload/v1774240482/Good_Luck_Charm_-_K_S_Makhan_ogizgc.mp3"
+      },
+      {
+        name:"Gallan 4",
+        url:"https://res.cloudinary.com/dqenjnk8x/video/upload/v1774240510/Gallan_4_-_Talwiinder_Mr-Punjab.Com_wvaoqp.mp3"
+      }
+    ]
+  },
+  {
+    name: "Angry Mood",
+    cover: "https://res.cloudinary.com/dqenjnk8x/image/upload/v1774240478/cover_xapn54.jpg", 
+    songs: [
+      {
+        name: "Standing Next to You",
+        url: "https://res.cloudinary.com/dqenjnk8x/video/upload/v1774240493/Jungkook_-_Standing_Next_to_You_Usher_Remix__mp3.pm_valfyo.mp3"
+      },
+      {
+        name: "Dhan Te nan",
+        url:"https://res.cloudinary.com/dqenjnk8x/video/upload/v1774242363/Dhan_Te_Nan_Remix_Kaminey_Fmw11.com_i8sdcg.mp3"
       }
     ]
   }

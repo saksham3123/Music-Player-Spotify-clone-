@@ -170,22 +170,20 @@ function main() {
 
       //add event listener to mute the volume
 
-    document.querySelector(".vol>img").addEventListener("click" , e =>{
-      
+document.querySelector(".vol>img").addEventListener("click", e => {
 
-        if(e.target.src.includes("./assets/volume.svg")){
-            e.target.src =  e.target.src.replace("./assets/volume.svg", "./assets/mute.svg");
-            currentsong.volume = 0;
-            document.querySelector(".range").getElementsByTagName("input")[0].value = 0
+    if (e.target.src.includes("volume.svg")) {
+        e.target.src = "./assets/mute.svg";
+        currentsong.volume = 0;
+        document.querySelector(".range").getElementsByTagName("input")[0].value = 0;
 
-        }
-        else{
-             e.target.src = e.target.src.replace("./assets/mute.svg", "./assets/volume.svg");
-             document.querySelector(".range").getElementsByTagName("input")[0].value = 10
-            currentsong.volume = 0.10;
+    } else {
+        e.target.src = "./assets/volume.svg";
+        document.querySelector(".range").getElementsByTagName("input")[0].value = 10;
+        currentsong.volume = 0.10;
+    }
 
-        }
-    })
+});
 
 }
 

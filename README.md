@@ -47,6 +47,14 @@ project/
 
 ---
 
+## 🚀 Live Demo
+
+👉 https://music-player-spotify-clone-beta.vercel.app/
+
+
+---
+
+
 ## 💡 How It Works
 
 * Songs are dynamically loaded from folders
